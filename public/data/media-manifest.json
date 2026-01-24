@@ -1,0 +1,10 @@
+{
+  "images": [
+    "/media/screenshots/example1.jpg",
+    "/media/screenshots/example2.png"
+  ],
+  "videos": [
+    "/media/videos/demo.mp4"
+  ],
+  "lastUpdated": "2026-01-24T00:00:00Z"
+}

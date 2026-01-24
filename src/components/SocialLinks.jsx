@@ -9,16 +9,22 @@ const SocialLinks = ({ socials }) => {
     twitter: '🐦',
     instagram: '📷',
     facebook: '👥',
-    portfolio: '🌐',
     email: '📧',
   };
+
+  // Filter out portfolio from socials (it's now hosted internally)
+  const filteredSocials = Object.fromEntries(
+    Object.entries(socials).filter(([platform]) => platform.toLowerCase() !== 'portfolio')
+  );
+
+  if (!filteredSocials || Object.keys(filteredSocials).length === 0) return null;
 
   return (
     <section className="social-links section">
       <div className="container">
         <h2 className="section-title">Connect With Me</h2>
         <div className="socials-grid">
-          {Object.entries(socials).map(([platform, url]) => (
+          {Object.entries(filteredSocials).map(([platform, url]) => (
             <a
               key={platform}
               href={url}

@@ -1,10 +1,14 @@
-.projects-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.5rem;
+.portfolio {
+  background: #f9f9f9;
 }
 
-.project-card {
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.portfolio-item {
   background: white;
   border-radius: 12px;
   overflow: hidden;
@@ -13,27 +17,27 @@
   cursor: pointer;
 }
 
-.project-card:hover {
+.portfolio-item:hover {
   transform: translateY(-4px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-.project-image {
+.portfolio-image {
   position: relative;
   width: 100%;
-  height: 180px;
+  height: 250px;
   overflow: hidden;
   background: #f0f0f0;
 }
 
-.project-image img {
+.portfolio-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s;
 }
 
-.project-overlay {
+.portfolio-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -47,53 +51,59 @@
   transition: opacity 0.3s;
 }
 
-.project-card:hover .project-overlay {
+.portfolio-item:hover .portfolio-overlay {
   opacity: 1;
 }
 
-.project-card:hover .project-image img {
+.portfolio-item:hover .portfolio-image img {
   transform: scale(1.1);
 }
 
 .view-details {
   color: white;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
-.project-content {
-  padding: 1.25rem;
+.portfolio-content {
+  padding: 1.5rem;
 }
 
-.project-title {
-  font-size: 1.25rem;
+.portfolio-title {
+  font-size: 1.5rem;
   font-weight: 700;
   color: #333;
-  margin: 0 0 0.75rem 0;
+  margin: 0 0 0.5rem 0;
 }
 
-.project-description {
-  font-size: 0.95rem;
+.portfolio-category {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.portfolio-description {
+  font-size: 1rem;
   line-height: 1.6;
   color: #555;
   margin-bottom: 1rem;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
-.project-tech {
+.portfolio-tech {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-bottom: 0.75rem;
   align-items: center;
 }
 
-.tech-tag {
+.tech-badge {
   background: #f0f0f0;
   color: #667eea;
   padding: 0.25rem 0.75rem;
@@ -108,24 +118,8 @@
   font-weight: 500;
 }
 
-.project-summary-indicator {
-  margin-top: 0.5rem;
-  padding-top: 0.75rem;
-  border-top: 1px solid #e9ecef;
-}
-
-.summary-badge {
-  display: inline-block;
-  font-size: 0.8rem;
-  color: #667eea;
-  font-weight: 500;
-  padding: 0.25rem 0.5rem;
-  background: #f0f0f0;
-  border-radius: 6px;
-}
-
 /* Modal Styles */
-.project-modal {
+.portfolio-modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -150,7 +144,7 @@
   }
 }
 
-.project-modal .modal-content {
+.portfolio-modal .modal-content {
   position: relative;
   max-width: 900px;
   width: 100%;
@@ -174,7 +168,7 @@
   }
 }
 
-.project-modal .modal-close {
+.portfolio-modal .modal-close {
   position: absolute;
   top: 1rem;
   right: 1rem;
@@ -194,7 +188,7 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-.project-modal .modal-close:hover {
+.portfolio-modal .modal-close:hover {
   background: #667eea;
   color: white;
   transform: rotate(90deg);
@@ -222,18 +216,28 @@
   font-size: 2rem;
   font-weight: 700;
   color: #333;
-  margin: 0 0 1rem 0;
+  margin: 0 0 0.5rem 0;
+}
+
+.modal-category {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
 }
 
 .modal-description {
   font-size: 1.1rem;
   line-height: 1.8;
   color: #555;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
-.modal-scope,
-.modal-impact {
+.modal-details {
   margin-bottom: 1.5rem;
   padding: 1rem;
   background: #f8f9fa;
@@ -241,40 +245,13 @@
   border-left: 4px solid #667eea;
 }
 
-.modal-impact {
-  border-left-color: #28a745;
-  background: #f0f9f4;
-}
-
-.modal-section-title {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #333;
-  margin: 0 0 1rem 0;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.modal-section-title::before {
-  content: '';
-  width: 4px;
-  height: 18px;
-  background: #667eea;
-  border-radius: 2px;
-}
-
-.modal-impact .modal-section-title::before {
-  background: #28a745;
-}
-
-.modal-list {
+.modal-details ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.modal-list li {
+.modal-details li {
   padding: 0.5rem 0;
   padding-left: 1.5rem;
   position: relative;
@@ -282,7 +259,7 @@
   line-height: 1.6;
 }
 
-.modal-list li::before {
+.modal-details li::before {
   content: '▸';
   position: absolute;
   left: 0;
@@ -290,12 +267,7 @@
   font-weight: bold;
 }
 
-.modal-impact .modal-list li::before {
-  color: #28a745;
-}
-
-.modal-scope p,
-.modal-impact p {
+.modal-details p {
   margin: 0;
   color: #555;
   line-height: 1.6;
@@ -305,7 +277,14 @@
   margin-bottom: 1.5rem;
 }
 
-.modal-tech .tech-list {
+.modal-tech h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 1rem 0;
+}
+
+.tech-list {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
@@ -320,43 +299,10 @@
   font-weight: 500;
 }
 
-.modal-media {
-  margin-bottom: 1.5rem;
-}
-
-.modal-media-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.modal-media-item {
-  border-radius: 8px;
-  overflow: hidden;
-  background: #f0f0f0;
-}
-
-.modal-media-item img,
-.modal-media-item video {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.media-caption {
-  padding: 0.5rem;
-  font-size: 0.85rem;
-  color: #666;
-  margin: 0;
-  text-align: center;
-}
-
 .modal-links {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-  margin-top: 1rem;
 }
 
 .modal-link {
@@ -376,19 +322,19 @@
 }
 
 @media (min-width: 768px) {
-  .projects-grid {
+  .portfolio-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 1024px) {
-  .projects-grid {
+  .portfolio-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (max-width: 768px) {
-  .project-modal {
+  .portfolio-modal {
     padding: 1rem;
   }
 

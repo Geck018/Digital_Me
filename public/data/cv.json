@@ -1,0 +1,139 @@
+{
+  "personal": {
+    "name": "Marnus Steyn",
+    "title": "Extended Reality Developer | Software Developer",
+    "profileImage": "/media/profile.jpg",
+    "bio": "Extended Reality and Software Developer with a strong background in 3D modelling, simulation, and software development. Experienced in developing immersive XR training solutions, interactive 3D environments, and data-driven applications for industrial and training environments. Passionate about emerging technologies, artificial intelligence, and building high-impact digital systems.",
+    "phoneNumber": "+27810142739",
+    "whatsappNumber": "+27810142739",
+    "email": "steynmc1999@gmail.com"
+  },
+
+  "skills": [
+    "React",
+    "JavaScript",
+    "HTML/CSS",
+    "Node.js",
+    "Python",
+    "SQL",
+    "Git",
+    "UI/UX Design",
+    "Unreal Engine",
+    "Blender",
+    "XR Development",
+    "3D Modelling",
+    "Data Visualization",
+    "Raspberry Pi Development",
+    "Node-RED",
+    "MATLAB",
+    "LabVIEW"
+  ],
+
+  "experience": [
+    {
+      "title": "Extended Reality Developer",
+      "company": "Master Drilling Group Ltd",
+      "period": "July 2024 - Present",
+      "location": "On Site (Fochville, Gauteng)",
+      "description": "Developing immersive XR applications for industrial training, simulation, and data visualization.",
+      "responsibilities": [
+        "Developing immersive XR training and simulation applications",
+        "Creating interactive 3D environments to enhance operational efficiency",
+        "Integrating real-time data sources into 3D visualizations"
+      ]
+    },
+    {
+      "title": "Junior Software Developer",
+      "company": "Master Drilling Group Ltd",
+      "period": "February 2022 - June 2024",
+      "location": "On Site (Fochville, Gauteng)",
+      "description": "Assisted in the development of software solutions for mining automation and data visualization.",
+      "responsibilities": [
+        "Developed and maintained internal software tools",
+        "Contributed to UI/UX development for data-driven applications",
+        "Conducted software testing and debugging"
+      ]
+    },
+    {
+      "title": "Marker – Systems Analysis Module",
+      "company": "North West University",
+      "period": "August 2021 - December 2021",
+      "location": "South Africa",
+      "description": "Marked assignments and assessments for the Systems Analysis and Design module.",
+      "responsibilities": [
+        "Marked assignments and assessments",
+        "Provided feedback to students to support learning"
+      ]
+    },
+    {
+      "title": "Junior Software Developer",
+      "company": "De Beers Group Technology South Africa",
+      "period": "December 2019 - January 2020",
+      "location": "Johannesburg, Gauteng",
+      "description": "Worked on diamond sorting and imaging software systems.",
+      "responsibilities": [
+        "Developed graphical user interfaces using LabVIEW",
+        "Assisted with testing and debugging of X-ray scanning software",
+        "Implemented UI components and automated application launches"
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "Industrial XR Training Applications",
+      "description": "Immersive XR applications developed for industrial training and simulation.",
+      "scope": [
+        "Developed interactive XR training environments",
+        "Created realistic 3D assets and simulations",
+        "Integrated operational and training data into XR experiences"
+      ],
+      "impact": [
+        "Improved training effectiveness and safety",
+        "Enhanced user engagement through immersive simulations"
+      ],
+      "technologies": [
+        "Unreal Engine",
+        "Blender",
+        "C++"
+      ],
+      "image": "/media/screenshots/project2.jpg",
+      "links": {}
+    }
+  ],
+
+  "portfolio": [
+    {
+      "title": "XR Training & Simulation",
+      "category": "XR Development",
+      "description": "Immersive training and simulation environments for industrial use.",
+      "image": "/media/screenshots/project2.jpg",
+      "details": [
+        "Real-time interactive simulations",
+        "High-fidelity 3D environments",
+        "Data-driven visualizations"
+      ],
+      "technologies": [
+        "Unreal Engine",
+        "Blender",
+        "C++"
+      ],
+      "links": {}
+    }
+  ],
+
+  "socials": {
+    "linkedin": "",
+    "github": "",
+    "twitter": ""
+  },
+
+  "media": [
+    {
+      "path": "/media/screenshots/project2.jpg",
+      "type": "image",
+      "project": "XR Training Applications",
+      "caption": "XR training environment screenshot"
+    }
+  ]
+}

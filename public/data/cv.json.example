@@ -1,0 +1,58 @@
+{
+  "personal": {
+    "name": "Your Name",
+    "title": "Your Professional Title",
+    "profileImage": "/media/profile.jpg",
+    "bio": "Your bio here...",
+    "phoneNumber": "+1234567890",
+    "whatsappNumber": "+1234567890",
+    "email": "your.email@example.com"
+  },
+  "skills": ["React", "JavaScript", "HTML/CSS"],
+  "experience": [
+    {
+      "title": "Job Title",
+      "company": "Company Name",
+      "period": "2022 - Present",
+      "location": "Location",
+      "description": "Job description...",
+      "responsibilities": ["Responsibility 1", "Responsibility 2"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Project Name",
+      "description": "Project description...",
+      "technologies": ["React", "Node.js"],
+      "image": "/media/screenshots/project1.jpg",
+      "links": {
+        "demo": "https://example.com",
+        "github": "https://github.com/username/project"
+      }
+    }
+  ],
+  "socials": {
+    "linkedin": "https://linkedin.com/in/yourprofile",
+    "github": "https://github.com/yourusername"
+  },
+  "media": [
+    {
+      "path": "/media/screenshots/project1.jpg",
+      "type": "image",
+      "project": "Project Name",
+      "caption": "Screenshot description"
+    },
+    {
+      "path": "/media/videos/demo.mp4",
+      "type": "video",
+      "project": "Project Name",
+      "caption": "Demo video"
+    },
+    {
+      "path": "/media/screenshots/workflow.jpg",
+      "type": "image",
+      "experience": "Job Title",
+      "caption": "Workflow visualization"
+    }
+  ]
+}
