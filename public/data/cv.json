@@ -300,6 +300,82 @@
         "github": "https://github.com/Geck018/Digital_Me",
         "live": "https://digital-cv-93y.pages.dev"
       }
+    },
+    {
+      "title": "MTG Collection Manager",
+      "category": "Web Development",
+      "description": "A JavaScript and React-based application using the Scryfall API to manage my local pod's Magic: The Gathering collection. Features automated rule and legality checking, full collection management, algorithmic deck building suggestions, and full access to the database of cards.",
+      "image": "/media/screenshots/portfolio-mtg.jpg",
+      "details": [
+        "Full collection management system",
+        "Automated rule and legality checking",
+        "Algorithmic deck building suggestions",
+        "Complete access to Scryfall card database",
+        "Local pod collection tracking"
+      ],
+      "technologies": [
+        "JavaScript",
+        "React",
+        "Scryfall API",
+        "Web Development"
+      ],
+      "links": {}
+    },
+    {
+      "title": "Museum of Nothingness",
+      "category": "3D Art",
+      "description": "A Blender project designed as a way to display all other 3D works I create. A virtual museum space showcasing various 3D art pieces and creations.",
+      "image": "/media/screenshots/portfolio-museum.jpg",
+      "details": [
+        "Virtual museum environment",
+        "Showcase for 3D artwork",
+        "Immersive gallery experience",
+        "Modular display system"
+      ],
+      "technologies": [
+        "Blender",
+        "3D Modeling",
+        "3D Rendering"
+      ],
+      "links": {}
+    },
+    {
+      "title": "Broken Moonscape",
+      "category": "3D Art",
+      "description": "A Blender scene meant to evoke the feeling of being on a far away planet, alone with your thoughts. An atmospheric and contemplative environment exploring isolation and introspection.",
+      "image": "/media/screenshots/portfolio-moonscape.jpg",
+      "details": [
+        "Atmospheric environment design",
+        "Emotional storytelling through visuals",
+        "Detailed landscape creation",
+        "Mood and atmosphere focused"
+      ],
+      "technologies": [
+        "Blender",
+        "3D Modeling",
+        "3D Rendering",
+        "Environment Design"
+      ],
+      "links": {}
+    },
+    {
+      "title": "Worldbuilding Project",
+      "category": "Multimedia",
+      "description": "The beginnings of a worldbuilding project, built to be multimedia. An ongoing creative endeavor combining various media forms to create and explore a fictional world.",
+      "image": "/media/screenshots/portfolio-worldbuilding.jpg",
+      "details": [
+        "Multimedia approach to worldbuilding",
+        "Combining various creative mediums",
+        "Ongoing creative project",
+        "Rich narrative development"
+      ],
+      "technologies": [
+        "Multimedia",
+        "Creative Writing",
+        "3D Art",
+        "Worldbuilding"
+      ],
+      "links": {}
     }
   ],
 
