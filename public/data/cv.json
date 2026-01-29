@@ -59,7 +59,7 @@
       "company": "North West University",
       "period": "August 2021 - December 2021",
       "location": "South Africa",
-      "description": "Marked assignments and assessments for the Systems Analysis and Design module.",
+      "description": "Marked assignments and assessments for the Systems Analysis and Design module for North West University.",
       "responsibilities": [
         "Marked assignments and assessments",
         "Provided feedback to students to support learning"
@@ -67,10 +67,10 @@
     },
     {
       "title": "Junior Software Developer",
-      "company": "De Beers Group Technology South Africa",
+      "company": "De Beers Group Technology",
       "period": "December 2019 - January 2020",
       "location": "Johannesburg, Gauteng",
-      "description": "Worked on diamond sorting and imaging software systems.",
+      "description": "Worked on diamond sorting and imaging software systems for De Beers Group Technology.",
       "responsibilities": [
         "Developed graphical user interfaces using LabVIEW",
         "Assisted with testing and debugging of X-ray scanning software",
