@@ -54,6 +54,7 @@ function App() {
         name={data.personal.name}
         title={data.personal.title}
         profileImage={data.personal.profileImage}
+        cvData={data}
       />
       <About bio={data.personal.bio} skills={data.skills} />
       <Experience experiences={data.experience} />

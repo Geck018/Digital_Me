@@ -68,10 +68,30 @@ If you need to add environment variables:
 2. Navigate to **Environment Variables**
 3. Add your variables for Production, Preview, or both
 
-## Custom Domain
+## Custom Domain (marnus.dev)
 
-To add a custom domain:
-1. Go to your Pages project settings
-2. Navigate to **Custom domains**
+### If your domain is on Cloudflare
+
+1. Go to [Cloudflare Dashboard](https://dash.cloudflare.com/) → **Pages** → **digital-cv**
+2. Open **Custom domains** in the left sidebar
 3. Click **Set up a custom domain**
-4. Follow the DNS configuration instructions
+4. Enter **marnus.dev** (and optionally **www.marnus.dev**)
+5. Cloudflare will add the DNS records automatically. Click **Activate domain**
+6. SSL is automatic; your site will be available at https://marnus.dev within a few minutes
+
+### If your domain is registered elsewhere
+
+1. **Option A – Use Cloudflare nameservers (recommended)**  
+   - In Cloudflare Dashboard, click **Add a site** and enter **marnus.dev**
+   - Follow the steps to add the site (Cloudflare will scan existing DNS)
+   - At your domain registrar, replace the current nameservers with the two Cloudflare nameservers shown (e.g. `ada.ns.cloudflare.com` and `bob.ns.cloudflare.com`)
+   - After DNS propagates (up to 24–48 hours), go to **Pages** → **digital-cv** → **Custom domains** and add **marnus.dev**
+
+2. **Option B – Keep registrar DNS**  
+   - At your domain registrar, add a **CNAME** record:
+     - **Name**: `@` (or `marnus.dev` / root, depending on registrar)
+     - **Target**: `digital-cv-93y.pages.dev`
+   - For **www**, add: Name `www`, Target `digital-cv-93y.pages.dev`
+   - Then in Cloudflare Pages → **Custom domains**, add **marnus.dev** and **www.marnus.dev**
+
+**Note:** For root domain (`marnus.dev`) with Option B, some registrars only support A/ALIAS/ANAME records; use their equivalent of “point to this hostname” and set it to `digital-cv-93y.pages.dev` if CNAME is not allowed on root.

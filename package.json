@@ -12,6 +12,7 @@
     "deploy": "npm run build && npx wrangler pages deploy dist --project-name=digital-cv"
   },
   "dependencies": {
+    "@react-pdf/renderer": "^4.3.2",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },

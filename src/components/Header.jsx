@@ -1,6 +1,7 @@
+import { PDFDownloadButton } from '../utils/pdfExport.jsx';
 import './Header.css';
 
-const Header = ({ name, title, profileImage }) => {
+const Header = ({ name, title, profileImage, cvData }) => {
   return (
     <header className="header">
       <div className="header-content">
@@ -13,6 +14,11 @@ const Header = ({ name, title, profileImage }) => {
           <h1 className="name">{name}</h1>
           <p className="title">{title}</p>
         </div>
+        {cvData && (
+          <div className="header-actions">
+            <PDFDownloadButton cvData={cvData} />
+          </div>
+        )}
       </div>
     </header>
   );
