@@ -31,15 +31,29 @@
 
   "experience": [
     {
+      "title": "Master Data Controller and Center of Excellence Data Steward",
+      "company": "Master Drilling Group Ltd",
+      "period": "October 2024 - Present",
+      "location": "On Site (Fochville, Gauteng)",
+      "description": "Ensuring clean data is entered into the new ERP system and playing a key role in the cleanup of data for loading into the new ERP system. Working to build automated systems to reduce duplication in creation of data.",
+      "responsibilities": [
+        "Ensuring clean data entry into the new ERP system",
+        "Leading data cleanup efforts for ERP system migration",
+        "Building automated systems to reduce data duplication",
+        "Maintaining data quality standards across the organization",
+        "Serving as Center of Excellence Data Steward"
+      ]
+    },
+    {
       "title": "Extended Reality Developer",
       "company": "Master Drilling Group Ltd",
-      "period": "July 2024 - Present",
+      "period": "July 2024 - October 2024",
       "location": "On Site (Fochville, Gauteng)",
-      "description": "Developing immersive XR applications for industrial training, simulation, and data visualization.",
+      "description": "Developed immersive XR applications for industrial training, simulation, and data visualization.",
       "responsibilities": [
-        "Developing immersive XR training and simulation applications",
-        "Creating interactive 3D environments to enhance operational efficiency",
-        "Integrating real-time data sources into 3D visualizations"
+        "Developed immersive XR training and simulation applications",
+        "Created interactive 3D environments to enhance operational efficiency",
+        "Integrated real-time data sources into 3D visualizations"
       ]
     },
     {
