@@ -81,6 +81,31 @@
 
   "projects": [
     {
+      "title": "Global Product Master Naming Standardization Initiative",
+      "description": "An ongoing initiative to standardize the naming conventions of all product masters across the Master Drilling Group. This is a global effort to ensure that all items loaded into the ERP follow a consistent structure, making the chances of duplication, incorrect ordering, and easing reporting.",
+      "scope": [
+        "Developed standardization framework and naming conventions",
+        "Coordinated global effort across all Master Drilling locations",
+        "Implemented validation and quality control processes",
+        "Created documentation and training materials",
+        "Established governance and maintenance procedures"
+      ],
+      "impact": [
+        "Reduced data duplication across ERP system",
+        "Prevented incorrect ordering due to naming inconsistencies",
+        "Improved reporting accuracy and efficiency",
+        "Enhanced data quality and system reliability",
+        "Streamlined global operations"
+      ],
+      "technologies": [
+        "ERP Systems",
+        "Data Management",
+        "Process Standardization"
+      ],
+      "image": "/media/screenshots/project10.jpg",
+      "links": {}
+    },
+    {
       "title": "Automated Hardware Configuration Startup Script",
       "description": "Developed an automated startup script to configure hardware settings for specific industrial PC requirements.",
       "scope": [
