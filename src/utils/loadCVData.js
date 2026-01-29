@@ -1,7 +1,10 @@
+import { decodeData } from './encryption';
+
 /**
  * Dynamically loads CV data from the data folder
  * Supports JSON format - just upload your CV as cv.json to public/data/
  * Can optionally include media list in the CV data itself
+ * Automatically decrypts sensitive personal information
  */
 export const loadCVData = async () => {
 
@@ -14,6 +17,19 @@ export const loadCVData = async () => {
     }
     
     const data = await response.json();
+    
+    // Decrypt sensitive personal information
+    if (data.personal) {
+      if (data.personal.email) {
+        data.personal.email = decodeData(data.personal.email);
+      }
+      if (data.personal.phoneNumber) {
+        data.personal.phoneNumber = decodeData(data.personal.phoneNumber);
+      }
+      if (data.personal.whatsappNumber) {
+        data.personal.whatsappNumber = decodeData(data.personal.whatsappNumber);
+      }
+    }
     
     // If media is included in CV data, extract it
     if (data.media) {

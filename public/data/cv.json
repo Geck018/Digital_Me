@@ -4,11 +4,10 @@
     "title": "Extended Reality Developer | Software Developer",
     "profileImage": "/media/profile.jpg",
     "bio": "Extended Reality and Software Developer with a strong background in 3D modelling, simulation, and software development. Experienced in developing immersive XR training solutions, interactive 3D environments, and data-driven applications for industrial and training environments. Passionate about emerging technologies, artificial intelligence, and building high-impact digital systems.",
-    "phoneNumber": "0714736485",
-    "whatsappNumber": "0714736485",
-    "email": "marriesteyngcko@gmail.com"
+    "phoneNumber": "XVZDWkJAG1dOGA==",
+    "whatsappNumber": "XVZDWkJAG1dOGA==",
+    "email": "AAAAHBwWXhcTVB0CAB4dJUoGBBBBHFNdWQ=="
   },
-
   "skills": [
     "React",
     "JavaScript",
@@ -28,7 +27,6 @@
     "MATLAB",
     "LabVIEW"
   ],
-
   "experience": [
     {
       "title": "Master Data Controller and Center of Excellence Data Steward",
@@ -92,7 +90,6 @@
       ]
     }
   ],
-
   "projects": [
     {
       "title": "Global Product Master Naming Standardization Initiative",
@@ -315,7 +312,6 @@
       "links": {}
     }
   ],
-
   "portfolio": [
     {
       "title": "Digital CV Website",
@@ -417,13 +413,11 @@
       "links": {}
     }
   ],
-
   "socials": {
     "linkedin": "",
     "github": "",
     "twitter": ""
   },
-
   "media": [
     {
       "path": "/media/screenshots/project2.jpg",

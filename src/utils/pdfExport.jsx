@@ -1,5 +1,6 @@
 import React from 'react';
 import { Document, Page, Text, View, StyleSheet, PDFDownloadLink, Font } from '@react-pdf/renderer';
+import { decodeData } from '../utils/encryption';
 import './pdfExport.css';
 
 // Register fonts for better typography (optional, but improves quality)
@@ -144,28 +145,36 @@ const styles = StyleSheet.create({
 // PDF Document Component
 const CVPDFDocument = ({ cvData }) => {
   const { personal, skills, experience, projects } = cvData;
+  
+  // Decrypt sensitive personal information for PDF
+  const decryptedPersonal = {
+    ...personal,
+    email: personal.email ? decodeData(personal.email) : '',
+    phoneNumber: personal.phoneNumber ? decodeData(personal.phoneNumber) : '',
+    whatsappNumber: personal.whatsappNumber ? decodeData(personal.whatsappNumber) : '',
+  };
 
   return (
     <Document>
       <Page size="A4" style={styles.page}>
         {/* Header */}
         <View style={styles.header}>
-          <Text style={styles.name}>{personal.name}</Text>
-          <Text style={styles.title}>{personal.title}</Text>
+          <Text style={styles.name}>{decryptedPersonal.name}</Text>
+          <Text style={styles.title}>{decryptedPersonal.title}</Text>
           <View style={styles.contact}>
-            {personal.email && <Text>{personal.email}</Text>}
-            {personal.phoneNumber && <Text>• {personal.phoneNumber}</Text>}
-            {personal.whatsappNumber && personal.whatsappNumber !== personal.phoneNumber && (
-              <Text>• WhatsApp: {personal.whatsappNumber}</Text>
+            {decryptedPersonal.email && <Text>{decryptedPersonal.email}</Text>}
+            {decryptedPersonal.phoneNumber && <Text>• {decryptedPersonal.phoneNumber}</Text>}
+            {decryptedPersonal.whatsappNumber && decryptedPersonal.whatsappNumber !== decryptedPersonal.phoneNumber && (
+              <Text>• WhatsApp: {decryptedPersonal.whatsappNumber}</Text>
             )}
           </View>
         </View>
 
         {/* Bio */}
-        {personal.bio && (
+        {decryptedPersonal.bio && (
           <View style={styles.section}>
             <Text style={styles.sectionTitle}>Professional Summary</Text>
-            <Text style={styles.bio}>{personal.bio}</Text>
+            <Text style={styles.bio}>{decryptedPersonal.bio}</Text>
           </View>
         )}
 

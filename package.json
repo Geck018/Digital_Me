@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "generate-media": "node scripts/generate-media-manifest.js",
+    "encrypt-cv": "node scripts/encrypt-cv-data.js",
     "deploy": "npm run build && npx wrangler pages deploy dist --project-name=digital-cv"
   },
   "dependencies": {
