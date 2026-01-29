@@ -101,12 +101,12 @@
       "links": {}
     },
     {
-      "title": "MDD Mobile Training Module",
-      "description": "Completed and tested a training module for Master Drilling's in-house mobile application, MDD Mobile.",
+      "title": "MD Mobile Training Module",
+      "description": "Completed and tested a training module for Master Drilling's in-house mobile application, MD Mobile.",
       "scope": [
         "Developed training module functionality",
         "Conducted comprehensive testing",
-        "Integrated with existing MDD Mobile application"
+        "Integrated with existing MD Mobile application"
       ],
       "impact": [
         "Enhanced employee training capabilities",
