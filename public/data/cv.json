@@ -81,23 +81,198 @@
 
   "projects": [
     {
-      "title": "Industrial XR Training Applications",
-      "description": "Immersive XR applications developed for industrial training and simulation.",
+      "title": "Automated Hardware Configuration Startup Script",
+      "description": "Developed an automated startup script to configure hardware settings for specific industrial PC requirements.",
       "scope": [
-        "Developed interactive XR training environments",
-        "Created realistic 3D assets and simulations",
-        "Integrated operational and training data into XR experiences"
+        "Created batch script for automated hardware configuration",
+        "Designed system to handle multiple configuration profiles",
+        "Implemented error handling and validation"
       ],
       "impact": [
-        "Improved training effectiveness and safety",
-        "Enhanced user engagement through immersive simulations"
+        "Reduced manual configuration time",
+        "Eliminated human error in hardware setup",
+        "Standardized configuration across multiple systems"
+      ],
+      "technologies": [
+        "Batch Script",
+        "Windows"
+      ],
+      "image": "",
+      "links": {}
+    },
+    {
+      "title": "MDD Mobile Training Module",
+      "description": "Completed and tested a training module for Master Drilling's in-house mobile application, MDD Mobile.",
+      "scope": [
+        "Developed training module functionality",
+        "Conducted comprehensive testing",
+        "Integrated with existing MDD Mobile application"
+      ],
+      "impact": [
+        "Enhanced employee training capabilities",
+        "Improved accessibility of training materials",
+        "Streamlined training processes"
+      ],
+      "technologies": [
+        "JavaScript",
+        "AngularJS"
+      ],
+      "image": "",
+      "links": {}
+    },
+    {
+      "title": "Global Manufacturing Batch Tracking System",
+      "description": "Built from the ground up a module to ship and track manufacturing batches from Master Drilling's manufacturing hub in China to locations worldwide.",
+      "scope": [
+        "Designed and developed complete batch tracking system",
+        "Collaborated with international stakeholders in China and South America",
+        "Implemented real-time tracking and reporting features",
+        "Created user interfaces for multiple regions"
+      ],
+      "impact": [
+        "Improved visibility into global supply chain",
+        "Enhanced coordination between international teams",
+        "Reduced shipping and tracking errors"
+      ],
+      "technologies": [
+        "JavaScript",
+        "AngularJS"
+      ],
+      "image": "",
+      "links": {}
+    },
+    {
+      "title": "VR Drill Rig Training Simulator",
+      "description": "Built a VR-capable training simulator for training new employees on drill rigs, featuring a full-scale environment for both above and underground operations.",
+      "scope": [
+        "Developed complete VR training simulator from scratch",
+        "Created full-scale 3D environments for above and underground operations",
+        "Implemented modular coding architecture for maximum reusability",
+        "Designed interactive training scenarios"
+      ],
+      "impact": [
+        "Significantly improved training safety",
+        "Reduced training costs and equipment wear",
+        "Enabled consistent training experiences",
+        "Increased training effectiveness through immersive learning"
       ],
       "technologies": [
         "Unreal Engine",
-        "Blender",
-        "C++"
+        "C++",
+        "VR Development"
       ],
       "image": "/media/screenshots/project2.jpg",
+      "links": {}
+    },
+    {
+      "title": "Virtual Site Tour Application",
+      "description": "Developed a smaller version of the VR training simulator specifically designed to provide virtual site tours for employees and investors.",
+      "scope": [
+        "Created streamlined VR experience for site tours",
+        "Optimized for non-technical users",
+        "Designed engaging presentation features"
+      ],
+      "impact": [
+        "Enabled remote site visits for stakeholders",
+        "Improved investor engagement",
+        "Enhanced employee onboarding experience"
+      ],
+      "technologies": [
+        "Unreal Engine",
+        "VR Development"
+      ],
+      "image": "",
+      "links": {}
+    },
+    {
+      "title": "Hydraulic Simulation System",
+      "description": "Built a functional hydraulic simulation system using 2D graphics to model and visualize hydraulic operations.",
+      "scope": [
+        "Developed hydraulic simulation algorithms",
+        "Created 2D graphics visualization system",
+        "Implemented real-time simulation capabilities"
+      ],
+      "impact": [
+        "Improved understanding of hydraulic systems",
+        "Enabled safe testing of hydraulic scenarios",
+        "Enhanced training for hydraulic operations"
+      ],
+      "technologies": [
+        "Unreal Engine",
+        "2D Graphics",
+        "Simulation"
+      ],
+      "image": "",
+      "links": {}
+    },
+    {
+      "title": "Virtual Data Control Room",
+      "description": "Built a virtual data control room - a virtual space to view all dashboards and reports in one centralized location.",
+      "scope": [
+        "Created immersive virtual environment for data visualization",
+        "Integrated multiple dashboard systems",
+        "Developed real-time data streaming capabilities",
+        "Designed intuitive navigation and interaction systems"
+      ],
+      "impact": [
+        "Centralized data viewing experience",
+        "Improved decision-making through unified data access",
+        "Enhanced data visualization capabilities"
+      ],
+      "technologies": [
+        "Unreal Engine",
+        "NVIDIA Omniverse",
+        "Data Visualization"
+      ],
+      "image": "",
+      "links": {}
+    },
+    {
+      "title": "D365 F&O Master Data Automation System",
+      "description": "Automated the process of parsing and loading master data to the new ERP system, D365 F&O, using a combination of Excel and a JavaScript web application.",
+      "scope": [
+        "Developed Excel-based data parsing system",
+        "Created JavaScript web application for data processing",
+        "Automated data validation and loading workflows",
+        "Designed error handling and reporting mechanisms"
+      ],
+      "impact": [
+        "Significantly reduced manual data entry time",
+        "Eliminated data entry errors",
+        "Accelerated ERP migration process",
+        "Improved data quality and consistency"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Excel",
+        "D365 F&O",
+        "Web Applications"
+      ],
+      "image": "",
+      "links": {}
+    },
+    {
+      "title": "Revamped Service Desk System",
+      "description": "Built a revamped service desk system on a new apps hub for the group, with special focus on automation and speed. Collaborated on full UI design for the hub.",
+      "scope": [
+        "Developed complete service desk system from scratch",
+        "Designed and implemented automation features",
+        "Created responsive and intuitive user interface",
+        "Collaborated with internal colleague on UI/UX design",
+        "Optimized for speed and performance"
+      ],
+      "impact": [
+        "Improved service desk efficiency",
+        "Enhanced user experience",
+        "Reduced response times",
+        "Streamlined support workflows"
+      ],
+      "technologies": [
+        "JavaScript",
+        "React",
+        "UI/UX Design"
+      ],
+      "image": "",
       "links": {}
     }
   ],
