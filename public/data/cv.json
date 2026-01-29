@@ -97,7 +97,7 @@
         "Batch Script",
         "Windows"
       ],
-      "image": "",
+      "image": "/media/screenshots/project1.jpg",
       "links": {}
     },
     {
@@ -117,7 +117,7 @@
         "JavaScript",
         "AngularJS"
       ],
-      "image": "",
+      "image": "/media/screenshots/project2.jpg",
       "links": {}
     },
     {
@@ -138,7 +138,7 @@
         "JavaScript",
         "AngularJS"
       ],
-      "image": "",
+      "image": "/media/screenshots/project3.jpg",
       "links": {}
     },
     {
@@ -161,7 +161,7 @@
         "C++",
         "VR Development"
       ],
-      "image": "/media/screenshots/project2.jpg",
+      "image": "/media/screenshots/project4.jpg",
       "links": {}
     },
     {
@@ -181,7 +181,7 @@
         "Unreal Engine",
         "VR Development"
       ],
-      "image": "",
+      "image": "/media/screenshots/project5.jpg",
       "links": {}
     },
     {
@@ -202,7 +202,7 @@
         "2D Graphics",
         "Simulation"
       ],
-      "image": "",
+      "image": "/media/screenshots/project6.jpg",
       "links": {}
     },
     {
@@ -224,7 +224,7 @@
         "NVIDIA Omniverse",
         "Data Visualization"
       ],
-      "image": "",
+      "image": "/media/screenshots/project7.jpg",
       "links": {}
     },
     {
@@ -248,7 +248,7 @@
         "D365 F&O",
         "Web Applications"
       ],
-      "image": "",
+      "image": "/media/screenshots/project8.jpg",
       "links": {}
     },
     {
@@ -272,28 +272,34 @@
         "React",
         "UI/UX Design"
       ],
-      "image": "",
+      "image": "/media/screenshots/project9.jpg",
       "links": {}
     }
   ],
 
   "portfolio": [
     {
-      "title": "XR Training & Simulation",
-      "category": "XR Development",
-      "description": "Immersive training and simulation environments for industrial use.",
-      "image": "/media/screenshots/project2.jpg",
+      "title": "Digital CV Website",
+      "category": "Web Development",
+      "description": "Personal portfolio website built with React and Vite, featuring a modern, responsive design and dynamic CV data loading.",
+      "image": "/media/screenshots/portfolio-cv.jpg",
       "details": [
-        "Real-time interactive simulations",
-        "High-fidelity 3D environments",
-        "Data-driven visualizations"
+        "React-based single page application",
+        "Dynamic CV data from JSON",
+        "Responsive design",
+        "Deployed on Cloudflare Pages"
       ],
       "technologies": [
-        "Unreal Engine",
-        "Blender",
-        "C++"
+        "React",
+        "JavaScript",
+        "Vite",
+        "CSS3",
+        "Cloudflare Pages"
       ],
-      "links": {}
+      "links": {
+        "github": "https://github.com/Geck018/Digital_Me",
+        "live": "https://digital-cv-93y.pages.dev"
+      }
     }
   ],
 
